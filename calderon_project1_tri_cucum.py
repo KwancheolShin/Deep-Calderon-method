@@ -13,16 +13,6 @@ Original file is located at
 # Train the data with initial 8192 data
 """
 
-!git config --global use.email "kcshin3623@gmail.com"
-!git config --global user.name "KwancheolShin"
-#!mkdir cucumber_project
-!cd cucumber_project
-!pwd
-
-!git clone https://github.com/KwancheolShin/Deep-Calderon-method.git
-!git commit -m "Add Colab project"
-!git push origin main
-
 from google.colab import drive
 drive.mount('/content/drive')
 
